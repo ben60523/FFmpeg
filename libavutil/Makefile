@@ -7,6 +7,7 @@ HEADERS = adler32.h                                                     \
           ambient_viewing_environment.h                                 \
           attributes.h                                                  \
           audio_fifo.h                                                  \
+          application.h                                                 \
           avassert.h                                                    \
           avstring.h                                                    \
           avutil.h                                                      \
@@ -108,6 +109,7 @@ OBJS = adler32.o                                                        \
        aes.o                                                            \
        aes_ctr.o                                                        \
        ambient_viewing_environment.o                                    \
+       application.o                                                    \
        audio_fifo.o                                                     \
        avstring.o                                                       \
        avsscanf.o                                                       \
